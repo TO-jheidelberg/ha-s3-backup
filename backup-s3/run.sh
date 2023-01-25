@@ -3,6 +3,7 @@
 KEY=`jq -r .awskey /data/options.json`
 SECRET=`jq -r .awssecret /data/options.json`
 BUCKET=`jq -r .bucketname /data/options.json`
+FOLDER=`jq -r .folder /data/options.json`
 
 now="$(date +'%d/%m/%Y - %H:%M:%S')"
 
